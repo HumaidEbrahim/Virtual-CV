@@ -3,13 +3,6 @@ import { gsap } from 'gsap'
 import { TextPlugin } from 'gsap/all'
 gsap.registerPlugin(TextPlugin)
 
-// gsap.from("h1", {
-//   opacity: 0,
-//   y: -50,
-//   duration: 1.5,
-//   ease: "power2.out"
-// });
-
 gsap.to("h1", {
   duration: 2,
   text: "Hello World, I'm Humaid",
@@ -29,3 +22,4 @@ gsap.from("#education", {
   opacity: 0,
   ease: "power2.out"
 });
+
