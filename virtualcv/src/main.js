@@ -4,7 +4,7 @@ import { TextPlugin } from 'gsap/all'
 gsap.registerPlugin(TextPlugin)
 
 gsap.to("h1", {
-  duration: 2,
+  duration: 1,
   text: "Hello World, I'm Humaid",
   ease: "power1.inOut"
 })
