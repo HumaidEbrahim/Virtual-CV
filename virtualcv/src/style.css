@@ -9,7 +9,7 @@ body {
 
 
 h1{
-  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-size: clamp(2.1rem, 6vw, 4rem);
   font-weight: bold;
   color: #2c6ae7;
   margin: 2rem 0 1rem 0;
@@ -50,6 +50,10 @@ a{
 
 a:hover{
   color: gray;
+}
+
+footer {
+  padding: 100px;
 }
 
 .item {
@@ -94,7 +98,7 @@ a:hover{
   flex-wrap: wrap;
 }
 
-.section {
+.section,.edu-section {
   display: flex;
   align-items: flex-start;
   justify-content: center;
